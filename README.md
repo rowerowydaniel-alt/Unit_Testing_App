@@ -1,5 +1,5 @@
 ```php
-// Twój fragment kodu
+// Ten plik zawiera instrukcję
 function test() {
     return true;
 }
