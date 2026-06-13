@@ -1,3 +1,11 @@
+<?php
+header("X-Frame-Options: DENY");
+header("X-Content-Type-Options: nosniff");
+header("Referrer-Policy: strict-origin-when-cross-origin");
+header("Permissions-Policy: geolocation=(), microphone=(), camera=()");
+header("Strict-Transport-Security: max-age=63072000; includeSubDomains; preload");
+header("Content-Security-Policy: default-src 'self'; script-src 'self' https://cdn.jsdelivr.net; style-src 'self' https://cdn.jsdelivr.net; img-src 'self'");
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
