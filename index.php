@@ -21,8 +21,27 @@ header("Content-Security-Policy:
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Simple PHP Unit Test Runner</title>
     <meta name="description" content="Simple PHP Unit Test Runner — lightweight tool for running and analyzing PHP unit tests directly in the browser.">
+    <meta name="keywords" content="PHP, Unit Testing, Test Runner, Browser">
+    <link rel="canonical" href="https://unit-testing-app.seowisely.pl/index.php">
     <meta name="robots" content="index, follow">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="https://unit-testing-app.seowisely.pl/assets/favicon.png">
+    <link rel="apple-touch-icon" href="https://unit-testing-app.seowisely.pl/assets/favicon.png">
+    <link rel="shortcut icon" href="https://unit-testing-app.seowisely.pl/assets/favicon.png">
+    <link rel="icon" href="/assets/favicon.png" type="image/png">
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="unit-testing-app.seowisely.pl">
+    <meta property="og:description" content="Simple PHP Unit Test Runner — lightweight tool for running and analyzing PHP unit tests directly in the browser.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://unit-testing-app.seowisely.pl/">
+    <meta property="og:image" content="https://unit-testing-app.seowisely.pl/assets/og_image.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:locale" content="pl_PL">
+    <meta property="og:site_name" content="unit-testing-app.seowisely.pl">
 <style>
     .status-passed { color: green; font-weight: bold; }
     .status-failed { color: red; font-weight: bold; }
