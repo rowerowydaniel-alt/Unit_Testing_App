@@ -11,8 +11,6 @@ header("Content-Security-Policy:
   img-src 'self' data:; 
   connect-src 'self' https://cdn.jsdelivr.net;
 ");
-
-
 ?>
 <!DOCTYPE html>
 <html lang="en">
