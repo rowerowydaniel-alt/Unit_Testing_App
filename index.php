@@ -762,7 +762,7 @@ header("Content-Security-Policy: default-src 'self'; script-src 'self' 'unsafe-i
                 <div class="badge-dot" aria-hidden="true"></div>
                 v1.0 · PHP Unit Testing
             </div>
-            <h1>Automated PHP Testing<br><span class="gradient">Made Simple</span></h1>
+            <h1>PHP Unit Testing<br><span class="gradient">Made Simple</span></h1>
             <p class="hero-tagline">Run comprehensive unit tests and web scans instantly — no setup, no overhead.</p>
         </section>
 
